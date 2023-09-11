@@ -179,3 +179,30 @@ Madden NFL 06	PS2	2005	Sports	Electronic Arts	3.98000001907349	4.90999984741211
 */
 
 
+
+SELECT Name, Platform, Year, Genre, Publisher, NA_Sales, Global_Sales FROM videogames
+WHERE Platform = 'DS'
+ORDER BY Global_Sales DESC
+/*
+New Super Mario Bros.	DS	2006	Platform	Nintendo	11.3800001144409	30.0100002288818
+Nintendogs	DS	2005	Simulation	Nintendo	9.06999969482422	24.7600002288818
+Mario Kart DS	DS	2005	Racing	Nintendo	9.8100004196167	23.4200000762939
+Brain Age: Train Your Brain in Minutes a Day	DS	2005	Misc	Nintendo	4.75	20.2199993133545
+Pokemon Diamond/Pokemon Pearl	DS	2006	Role-Playing	Nintendo	6.42000007629395	18.3600006103516
+Pokemon Black/Pokemon White	DS	2010	Role-Playing	Nintendo	5.57000017166138	15.3199996948242
+Brain Age 2: More Training in Minutes a Day	DS	2005	Puzzle	Nintendo	3.44000005722046	15.3000001907349
+Animal Crossing: Wild World	DS	2005	Simulation	Nintendo	2.54999995231628	12.2700004577637
+Pokemon HeartGold/Pokemon SoulSilver	DS	2009	Action	Nintendo	4.40000009536743	11.8999996185303
+Super Mario 64	DS	2004	Platform	Nintendo	5.07999992370605	10.4200000762939
+Mario Party DS	DS	2007	Misc	Nintendo	4.46000003814697	9.02000045776367
+Pokemon Black 2/Pokemon White 2	DS	2012	Role-Playing	Nintendo	2.91000008583069	8.32999992370605
+Pokémon Platinum Version	DS	2008	Role-Playing	Nintendo	2.8199999332428	7.84000015258789
+Big Brain Academy	DS	2005	Misc	Nintendo	1.66999995708466	6.67000007629395
+Dragon Quest IX: Sentinels of the Starry Skies	DS	2009	Role-Playing	Nintendo	0.660000026226044	5.84000015258789
+Cooking Mama	DS	2006	Simulation	505 Games	3.13000011444092	5.71999979019165
+Professor Layton and the Curious Village	DS	2007	Puzzle	Nintendo	1.22000002861023	5.26000022888184
+The Legend of Zelda: Phantom Hourglass	DS	2007	Action	Nintendo	1.89999997615814	5.17000007629395
+Mario & Sonic at the Olympic Games	DS	2008	Sports	Sega	1.63999998569489	5.1399998664856
+Pokemon Mystery Dungeon: Explorers of Time/Explorers of Darkness	DS	2007	Role-Playing	Nintendo	1.85000002384186	4.96000003814697
+LEGO Star Wars: The Complete Saga	DS	2007	Action	LucasArts	2.89000010490417	4.90000009536743
+*/
