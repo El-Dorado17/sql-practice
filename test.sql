@@ -84,7 +84,6 @@ ORDER BY Global_Sales DESC
 */
 
 
-
 SELECT * FROM videogames
 WHERE NAME LIKE '%n+%'
 --*RETURNS
@@ -95,9 +94,6 @@ N+	PSP	2007	Atari	0.0299999993294477	0	0	0	0.0299999993294477
 Very curious why global sales is different for NA sales on DS
 Also, this game was NA only; didn't know that and I loved this game
 */
-
-
-
 
 
 SELECT * FROM videogames
@@ -139,7 +135,6 @@ Rank    Name    Platform    Year    Genre   Publisher
 */
 
 
-
 SELECT * FROM videogames
 ORDER BY YEAR ASC
 --*RETURNS
@@ -157,6 +152,30 @@ ORDER BY YEAR ASC
 */
 
 
-
+SELECT Name, Platform, Year, Genre, Publisher, NA_Sales, Global_Sales FROM videogames
+WHERE Platform = 'PS2'
+ORDER BY Global_Sales DESC
+/*
+Grand Theft Auto: San Andreas	PS2	2004	Action	Take-Two Interactive	9.43000030517578	20.8099994659424
+Grand Theft Auto: Vice City	PS2	2002	Action	Take-Two Interactive	8.40999984741211	16.1499996185303
+Gran Turismo 3: A-Spec	PS2	2001	Racing	Sony Computer Entertainment	6.84999990463257	14.9799995422363
+Grand Theft Auto III	PS2	2001	Action	Take-Two Interactive	6.98999977111816	13.1000003814697
+Gran Turismo 4	PS2	2004	Racing	Sony Computer Entertainment	3.00999999046326	11.6599998474121
+Final Fantasy X	PS2	2001	Role-Playing	Sony Computer Entertainment	2.91000008583069	8.05000019073486
+Need for Speed Underground	PS2	2003	Racing	Electronic Arts	3.26999998092651	7.19999980926514
+Need for Speed Underground 2	PS2	2004	Racing	Electronic Arts	2.71000003814697	6.90000009536743
+Medal of Honor: Frontline	PS2	2002	Shooter	Electronic Arts	2.9300000667572	6.82999992370605
+Kingdom Hearts	PS2	2002	Role-Playing	Sony Computer Entertainment	3.64000010490417	6.40000009536743
+Metal Gear Solid 2: Sons of Liberty	PS2	2001	Action	Konami Digital Entertainment	2.45000004768372	6.05000019073486
+Final Fantasy XII	PS2	2006	Role-Playing	Square Enix	1.87999999523163	5.94999980926514
+Crash Bandicoot: The Wrath of Cortex	PS2	2001	Platform	Universal Interactive	2.0699999332428	5.42000007629395
+Final Fantasy X-2	PS2	2003	Role-Playing	Electronic Arts	1.91999995708466	5.28999996185303
+Madden NFL 2004	PS2	N/A	Sports	Electronic Arts	4.26000022888184	5.23000001907349
+Dragon Quest VIII: Journey of the Cursed King	PS2	2004	Role-Playing	Square Enix	0.649999976158142	5.21000003814697
+Medal of Honor: Rising Sun	PS2	2003	Shooter	Electronic Arts	1.98000001907349	5.13000011444092
+Guitar Hero II	PS2	2006	Misc	RedOctane	3.80999994277954	5.11999988555908
+Guitar Hero III: Legends of Rock	PS2	2007	Misc	Activision	3.49000000953674	4.98000001907349
+Madden NFL 06	PS2	2005	Sports	Electronic Arts	3.98000001907349	4.90999984741211
+*/
 
 
