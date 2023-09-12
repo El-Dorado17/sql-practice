@@ -210,3 +210,8 @@ LEGO Star Wars: The Complete Saga	DS	2007	Action	LucasArts	2.89000010490417	4.90
 
 SELECT COUNT(*) FROM videogames
 -- 16598 ROWS OF GAMES
+
+
+SELECT AVG(Global_Sales) FROM videogames;
+-- 0.537440655354071 --*AVERAGE GLOBAL SALE (Half-a-million USD)
+
