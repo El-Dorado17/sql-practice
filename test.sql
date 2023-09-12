@@ -206,3 +206,7 @@ Mario & Sonic at the Olympic Games	DS	2008	Sports	Sega	1.63999998569489	5.139999
 Pokemon Mystery Dungeon: Explorers of Time/Explorers of Darkness	DS	2007	Role-Playing	Nintendo	1.85000002384186	4.96000003814697
 LEGO Star Wars: The Complete Saga	DS	2007	Action	LucasArts	2.89000010490417	4.90000009536743
 */
+
+
+SELECT COUNT(*) FROM videogames
+-- 16598 ROWS OF GAMES
