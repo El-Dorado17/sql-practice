@@ -276,3 +276,24 @@ SELECT AVG(Global_Sales) FROM videogames;
 --   salary
 -- FROM employee_ranking
 -- WHERE ranking = 2
+
+
+-- WITH employee_ranking AS (
+--   SELECT
+--     employee_id,
+--     last_name,
+--     first_name,
+--     salary,
+--     dept_id
+--     RANK() OVER (PARTITION BY dept_id ORDER BY salary DESC) as ranking
+--   FROM employee
+-- )
+-- SELECT
+--   dept_id,
+--   employee_id,
+--   last_name,
+--   first_name,
+--   salary
+-- FROM employee_ranking
+-- WHERE ranking = 2
+-- ORDER BY dept_id, last_name
