@@ -215,3 +215,29 @@ SELECT COUNT(*) FROM videogames
 SELECT AVG(Global_Sales) FROM videogames;
 -- 0.537440655354071 --*AVERAGE GLOBAL SALE (Half-a-million USD)
 
+
+
+
+
+
+-- Examples for tomorrow:
+
+-- WITH employee_ranking AS (
+--   SELECT
+--     employee_id,
+--     last_name,
+--     first_name,
+--     salary,
+--     RANK() OVER (ORDER BY salary DESC) as ranking
+--   FROM employee
+-- )
+-- SELECT
+--   employee_id,
+--   last_name,
+--   first_name,
+--   salary
+-- FROM employee_ranking
+-- WHERE ranking <= 5
+-- ORDER BY ranking
+
+
