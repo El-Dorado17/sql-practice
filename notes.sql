@@ -7,7 +7,6 @@ SQL Aggregate Functions [25 Exercises]
 SQL Formatting query output [10 Exercises]
 SQL Quering on Multiple Tables [8 Exercises]
 
-
 SQL Practice Websites
 SQLZoo
 SQL Fiddle
