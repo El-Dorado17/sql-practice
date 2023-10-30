@@ -1,10 +1,6 @@
-
-/*
-Database is a GIANT CSV File of 
-top 1,700 selling video games before February 2020
-
-Below are SQL queries used to get specific data
-*/
+/* USING SQL-Server
+Top 1,700 selling video games before February 2020
+Below are SQL queries used to get specific data */
 
 
 SELECT * FROM videogames
@@ -230,74 +226,3 @@ WHERE name LIKE "Al%"
 SELECT * FROM vgsales
 WHERE Platform = 'PS4' AND NA_Sales > 0
 ORDER BY Rank asc
-
-
-
-DEFINITIONS:
-
-SELECT
-    -- Indicate what we will are Querying about
-    SELECT population FROM world
-
-
-FROM
-    -- Indicate what table we are talking about
-    SELECT * FROM sales
-
-WHERE
-    -- Specify criteria
-    SELECT * FROM sales
-    WHERE North_American_Sales > 100,000
-
-INSERT INTO
-    -- Adds new data into a table
-    INSERT INTO Employees (EmployeeID, FirstName, LastName)
-    VALUES (444, Ely, Dorado)
-
-UPDATE
-    --Basically a PUT request
-    Update Employees
-    SET Status = 'Hired'
-    WHERE EmployeeID = 444
-
-DELETE
-    -- Deletes a line of data
-    DELETE FROM Products
-    WHERE ProductID - 72
-
-CREATE TABLE
-
-ALTER TABLE
-
-DROP TABLE
-
-JOIN
-
-GROUP BY
-
-ORDER BY
-
-DISTINCT
-
-HAVING
-
-ALWAYS
-
-COUNT()
-
-SUM(), AVG(), MIN(), MAX()
-
-BETWEEN
-
-LIKE 
-
-IN
-
-NOT
-
-AND/OR
-
-CASE
-
-UNION
-
