@@ -8,7 +8,7 @@ SQL Quering on Multiple Tables
 
 Practice sites:
 SQL Practice Websites
-SQLZoo - practiced 10/30
+SQLZoo - Started 10/30
 SQL Fiddle
 DB-Fiddle
 DB<>Fiddle

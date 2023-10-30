@@ -230,3 +230,61 @@ WHERE name LIKE "Al%"
 SELECT * FROM vgsales
 WHERE Platform = 'PS4' AND NA_Sales > 0
 ORDER BY Rank asc
+
+
+
+DEFINITIONS:
+
+SELECT
+    Indicate what we will are Querying about
+    SELECT population FROM world
+
+
+FROM
+    Indicate what table we are talking about
+    SELECT ___ FROM video-game-sales
+
+WHERE
+
+INSERT INTO
+
+UPDATE
+
+DELETE
+
+CREATE TABLE
+
+ALTER TABLE
+
+DROP TABLE
+
+JOIN
+
+GROUP BY
+
+ORDER BY
+
+DISTINCT
+
+HAVING
+
+ALWAYS
+
+COUNT()
+
+SUM(), AVG(), MIN(), MAX()
+
+BETWEEN
+
+LIKE 
+
+IN
+
+NOT
+
+AND/OR
+
+CASE
+
+UNION
+
