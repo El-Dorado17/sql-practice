@@ -297,3 +297,25 @@ SELECT AVG(Global_Sales) FROM videogames;
 -- FROM employee_ranking
 -- WHERE ranking = 2
 -- ORDER BY dept_id, last_name
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Select ____ FROM
+WHERE ____ IN ('__', '__', '__')

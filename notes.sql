@@ -1,16 +1,14 @@
-For Monday: MAJOR PRACTICE FOR INTERVIEW
-
 Practice:
-SQL Retrieve data from tables [33 Exercises]
-SQL Boolean and Relational operators [12 Exercises]
-SQL Wildcard and Special operators [22 Exercises]
-SQL Aggregate Functions [25 Exercises]
-SQL Formatting query output [10 Exercises]
-SQL Quering on Multiple Tables [8 Exercises]
+SQL Retrieve data from tables
+SQL Boolean and Relational operators
+SQL Wildcard and Special operators
+SQL Aggregate Functions
+SQL Formatting query output
+SQL Quering on Multiple Tables
 
 Practice sites:
 SQL Practice Websites
-SQLZoo
+SQLZoo - practiced 10/30
 SQL Fiddle
 DB-Fiddle
 DB<>Fiddle
