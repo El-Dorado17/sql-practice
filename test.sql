@@ -216,106 +216,17 @@ SELECT AVG(Global_Sales) FROM videogames;
 -- 0.537440655354071 --*AVERAGE GLOBAL SALE (Half-a-million USD)
 
 
-
-
-
-
--- Examples for tomorrow:
-
--- WITH employee_ranking AS (
---   SELECT
---     employee_id,
---     last_name,
---     first_name,
---     salary,
---     RANK() OVER (ORDER BY salary DESC) as ranking
---   FROM employee
--- )
--- SELECT
---   employee_id,
---   last_name,
---   first_name,
---   salary
--- FROM employee_ranking
--- WHERE ranking <= 5
--- ORDER BY ranking
-
-
--- WITH employee_ranking AS (
---   SELECT
---     employee_id,
---     last_name,
---     first_name,
---     salary,
---     RANK() OVER (ORDER BY salary ASC) as ranking
---   FROM employee
--- )
--- SELECT
---   employee_id,
---   last_name,
---   first_name,
---   salary
--- FROM employee_ranking
--- WHERE ranking <= 5
--- ORDER BY ranking
-
-
--- WITH employee_ranking AS (
---   SELECT
---     employee_id,
---     last_name,
---     first_name,
---     salary,
---     RANK() OVER (ORDER BY salary DESC) as ranking
---   FROM employee
--- )
--- SELECT
---   employee_id,
---   last_name,
---   first_name,
---   salary
--- FROM employee_ranking
--- WHERE ranking = 2
-
-
--- WITH employee_ranking AS (
---   SELECT
---     employee_id,
---     last_name,
---     first_name,
---     salary,
---     dept_id
---     RANK() OVER (PARTITION BY dept_id ORDER BY salary DESC) as ranking
---   FROM employee
--- )
--- SELECT
---   dept_id,
---   employee_id,
---   last_name,
---   first_name,
---   salary
--- FROM employee_ranking
--- WHERE ranking = 2
--- ORDER BY dept_id, last_name
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Select ____ FROM
 WHERE ____ IN ('__', '__', '__')
+
+
+SELECT name, population
+FROM world
+WHERE name LIKE "Al%"
+-- Begin with Al  
+--IF ending in AL:  "%al"
+
+--Wanted to organize by PS4 games wife and I could play, but also eliminate any listing unavailable in North America
+SELECT * FROM vgsales
+WHERE Platform = 'PS4' AND NA_Sales > 0
+ORDER BY Rank asc
