@@ -2,7 +2,7 @@ Practice sites:
 SQL Practice Websites , SQLZoo - Started 10/30 , SQL Fiddle , DB-Fiddle , DB<>Fiddle , HackerRank , SQL Bolt , Oracle Live SQL , W3Schools , W3Resource , StackOverflow
 Data Explorer , Coding Ground by Tutorials Point , SQL Course , Tech on the Net , SQL-ex , Rextester , SQLize , SQL Test
 
--- DEFINITIONS:
+-- KEYWORDS
 SELECT
     -- Indicate what we will are Querying about
     SELECT population FROM world
@@ -68,3 +68,11 @@ AND/OR
 CASE
 
 UNION
+
+
+JOINS - LEFT & INNER
+Groupby
+count vs sum
+case when/IF
+Rank() Row_Number()
+Where vs HAVING
